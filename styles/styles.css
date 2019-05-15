@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+/*###Navingation Bar####*/
+
+.navbar {
+	height: 115px;
+	border-bottom: 1px solid rgb(223,225,229);
+}
+
+.top .logo {
+	height: 30px;
+	width: 89px;
+	margin: 30px 30px 0 28px;
+} 
+
+.top input {
+	height: 40px;
+	width: 634px;
+	font: 16px arial, sans-serif;
+	border-radius: 35px;
+	padding-left: 10px;
+	border: 1px solid rgb(223,225,229);
+	position: relative;
+	top: -10px;
+}
+
+.top .app {
+	height: 30px;
+	width: 30px;
+	margin-right: 15px;
+}
+
+.top .emailid {
+	height: 35px;
+	width: 35px;
+	border-radius: 100%;	
+}
+
+.lefticon {
+	display: inline-block;
+	float: right;
+	margin-right: 35px;
+	margin-top: 25px;
+}
+
+.mic {
+	height: 20px;
+	width: auto;
+	position: relative;
+	right: 80px;
+	bottom: 4px;
+}
+
+.search {
+	height: 20px;
+	width: auto;
+	position: relative;
+	right: 60px;
+	bottom: 4px;
+}
+
+.bottom li {
+	display: inline-block;
+	margin-left: 35px;
+	font-size: 13px;
+	color: #777777;
+	font-family: arial, sans-serif;
+	font-weight: 100;
+	position: relative;
+	left: 130px;
+	top: 9px;
+}
+
+.my {
+	margin-right: 80px;
+}
+
+/*### Search Result - Video Link###*/
+
+.video {
+	width: 635px;
+	margin-left: 150px;
+	padding: 15px 0 38px 0;
+}
+
+.video p {
+	font-size: 13px;
+	color: #777777;
+	font-family: arial, sans-serif;
+}
+
+.video h3 {
+	font-size: 18px;
+	line-height: 1.33;
+	font-weight: normal;
+	margin: 30px 0 0 10px;
+}
+
+.container {
+	display: grid;
+	width: 635px;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 20px;
+	grid-gap: 10px; 
+}
+
+.card {
+	border: 1px solid rgb(223,225,229);
+	border-radius: 15px;
+}
+
+.card .first{
+	height: 115px;
+	width: 100%;
+	background-image: url(../img/grid/img1.jpg);
+	background-size: contain;
+	border-radius: 13px 13px 0px 0;
+}
+
+.card .sec{
+	height: 115px;
+	width: 100%;
+	background-image: url(../img/grid/img2.jpg);
+	background-size: contain;
+	border-radius: 13px 13px 0px 0;
+}
+
+.card .third{
+	height: 115px;
+	width: 100%;
+	background-image: url(../img/grid/img3.jpg);
+	background-size: contain;
+	border-radius: 13px 13px 0px 0;
+}
+
+.card .time {
+	color: white;
+	font-weight: bold;
+	position: relative;
+	top: -30px;
+	z-index: 5;
+	background-color: black;
+	display: inline;
+	padding: 2px 3px 2px 3px;
+	float: right;
+	margin-right: 3px;
+}
+
+.card h3 {
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 20px;
+	font-size: 16px;
+	line-height: 1.4;
+	color: blue;
+}
+
+.card .two {
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-bottom: 10px;
+} 
+
+.card .three {
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.card span {
+	color: green;
+}
+
+
+/*### Search Result###*/
