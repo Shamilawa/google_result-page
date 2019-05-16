@@ -23,7 +23,7 @@
 	width: 634px;
 	font: 16px arial, sans-serif;
 	border-radius: 35px;
-	padding-left: 10px;
+	padding-left: 20px;
 	border: 1px solid rgb(223,225,229);
 	position: relative;
 	top: -10px;
@@ -344,6 +344,15 @@
 	margin: 10px 15px 0 10px;
 }
 
+.product .more:hover {
+	color: #777;
+	font-size: small;
+	text-decoration: none;
+	float: right;
+	margin: 10px 15px 0 10px;
+	text-decoration: underline;
+}
+
 
 .gamelist {
 	display: grid;
@@ -363,6 +372,7 @@
 	padding-top: 10px;
 	text-decoration: none;
 	font-size: 12px;
+	color: blue;
 }
 
 .gameone a {
@@ -421,22 +431,108 @@
 
 .left a {
 	text-decoration: none;
+	color: blue;
 }
 
 .left a:hover {
 	text-decoration: underline;
 }
 
+.left span {
+	font-weight: bold;
+}
+
 footer {
 	height: 85px;
 }
 
-.goooogle {
-	background: url(url(/images/nav_logo299.webp) no-repeat);
+
+
+/*### GOOOOOOOGLE ###*/
+
+.lettterored img {
+	display: flex;
+	align-items: flex-end;
 }
 
+.rowtwo td {
+	color: #4285f3;
+	text-align: center;
+}
 
+.rowtwo a {
+	color: #4285f3;
+	text-align: center;
+	text-decoration: none;
+}
 
+.rowtwo a:hover {
+	color: #4285f3;
+	text-decoration: underline;
+}
 
+.rowtwo .next {
+	text-align: right;
+	padding-right: 5px;
+}
 
+.google_search_more {
+	margin: 30px auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
 
+/*### Footer ###*/
+
+footer {
+	height: 80px;
+	background-color: #f2f2f2; 
+}
+
+.footertop {
+	padding-left: 150px;
+	margin-top: 20px;
+	border-top: 1px solid rgb(223,225,229);
+}
+
+.footertop span {
+	color: #333;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.footertop p {
+	color: #5f6368;
+	font-size: 13px;
+	padding-top: 10px;
+}
+
+.footertop a {
+	color: #5f6368;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.footertop a:hover {
+	color: grey;
+	font-size: 13px;
+}
+
+.footerbot {
+	margin-left: 150px;
+	margin-top: 15px;
+}
+
+.footerbot a {
+	font-size: 13px;
+	color: #5f6368; 
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+.footerbot a:hover {
+	font-size: 13px;
+	color: grey; 
+	text-decoration: none;
+	padding-right: 30px;
+}
