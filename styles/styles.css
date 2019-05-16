@@ -68,24 +68,39 @@
 	display: inline-block;
 	margin-left: 35px;
 	font-size: 13px;
-	color: #777777;
 	font-family: arial, sans-serif;
 	font-weight: 100;
 	position: relative;
 	left: 130px;
 	top: 9px;
 }
+.bottom a {
+	text-decoration: none;
+	color: #777777;
+}
+
+.bottom a:hover {
+	text-decoration: none;
+	color: black;
+}
 
 .my {
 	margin-right: 80px;
 }
+
+
+
+
+
+
+
 
 /*### Search Result - Video Link###*/
 
 .video {
 	width: 635px;
 	margin-left: 150px;
-	padding: 15px 0 38px 0;
+	padding: 15px 0 0 0;
 }
 
 .video p {
@@ -106,7 +121,7 @@
 	width: 635px;
 	grid-template-columns: repeat(3, 1fr);
 	margin-top: 20px;
-	grid-gap: 10px; 
+	grid-gap: 10px;
 }
 
 .card {
@@ -142,7 +157,7 @@
 	color: white;
 	font-weight: bold;
 	position: relative;
-	top: -30px;
+	top: -25px;
 	z-index: 5;
 	background-color: black;
 	display: inline;
@@ -155,19 +170,26 @@
 	margin-top: 15px;
 	margin-left: 15px;
 	margin-right: 20px;
+	margin-bottom: 30px;
 	font-size: 16px;
 	line-height: 1.4;
 	color: blue;
 }
 
+.card a {
+	text-decoration: none;
+}
+
+.card a:hover {
+	text-decoration: underline;
+}
+
 .card .two {
-	margin-left: 20px;
-	margin-top: 25px;
-	margin-bottom: 10px;
+	margin-left: 15px;
 } 
 
 .card .three {
-	margin-left: 20px;
+	margin-left: 15px;
 	margin-bottom: 10px;
 }
 
@@ -176,4 +198,245 @@
 }
 
 
+
+
+
+
+
+
+
 /*### Search Result###*/
+.result {
+	width: 635px;
+	margin-left: 150px;
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-auto-rows: auto; 
+	width: 635px;
+	margin-top: 40px;
+	grid-row-gap: 35px;
+	margin-left: 10px;
+}
+
+.item .head {
+	display: inline-block;
+	font-size: 18px;
+	text-decoration: none;
+	color: blue;
+	margin-bottom: 3px;
+}
+
+.item .head:hover {
+	display: inline-block;
+	font-size: 18px;
+	text-decoration: underline;
+	color: blue;
+	margin-bottom: 3px;
+	padding-bottom: 0;
+}
+
+.item .link {
+	display: inline-block;
+	text-decoration: none;
+	margin-bottom: 6px;
+	color: darkgreen;
+	font-size: 14px;
+	font-family: arial;
+	padding: 0;
+}
+
+.item .info {
+	font-family: arial;
+	color: #6a6a6a;
+	font-size: small;
+	font-style: normal;
+	line-height: 1.5;
+	margin-bottom: 6px;
+}
+
+.item .extra {
+	margin-bottom: 6px;
+}
+
+.extra div {
+	display: inline-block;
+	margin-right: 25px;
+	
+}
+
+.extra p {
+	color: #777;
+	font-size: small;
+	padding-bottom: 5px;
+}
+
+.extra a {
+	color: blue;
+	text-decoration: none;
+}
+
+.extra a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.item .other {
+	text-decoration: none;
+	font-size: small;
+	margin-right: 20px;
+	color: blue;
+}
+
+.item .other:hover {
+	text-decoration: underline;
+	font-size: small;
+	margin-right: 20px;
+	color: blue;
+}
+
+.container2 .qa {
+	border: 1px solid rgb(223,225,229);
+	border-radius: 8px;
+	margin-bottom: 6px;
+	margin-top: 1px;
+	margin-left: -10px;
+}
+
+
+.qa p {
+	padding: 13px;
+	border-bottom: 1px solid rgb(223,225,229); 
+	font-size: 16px;
+	color: #222;
+
+}
+
+.qa .title {
+	font-size: 18px;
+	color: #808080;
+}
+
+.product {
+	border: 1px solid rgb(223,225,229);
+	border-radius: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: -10px;
+}
+
+.product h3 {
+	font-size: 18px;
+	color: #222;
+	font-weight: normal;
+	display: inline-block;
+	padding: 15px;
+}
+
+.product .more {
+	color: #777;
+	font-size: small;
+	text-decoration: none;
+	float: right;
+	margin: 10px 15px 0 10px;
+}
+
+
+.gamelist {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: 150px;
+	grid-gap: 10px; 
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+ .gameone div {
+	height: 85px;
+	padding: 0 2px 0 2px;
+}
+
+.gameone p {
+	padding-top: 10px;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.gameone a {
+	text-decoration: none;
+}
+
+.aa div {
+	background-image: url(../img/gamelist/img1.jpg);
+	background-size: cover;
+}
+
+.bb div {
+	background-image: url(../img/gamelist/img2.jpg);
+	background-size: cover;
+}
+
+.cc div {
+	background-image: url(../img/gamelist/img3.jpg);
+	background-size: cover;
+}
+
+.dd div {
+	background-image: url(../img/gamelist/img4.jpg);
+	background-size: cover;
+}
+
+.ee div {
+	background-image: url(../img/gamelist/img5.jpg);
+	background-size: cover;
+}
+
+.ff div {
+	background-image: url(../img/gamelist/img5.jpg);
+	background-size: cover;
+}
+
+.gg div {
+	background-image: url(../img/gamelist/img6.jpg);
+	background-size: cover;
+}
+
+
+.related h3 {
+	font-size: 18px;
+	color: #222;
+	font-weight: normal;
+}
+
+.left  p {
+	display: inline-block;
+	width: 250px;
+	margin-right: 10px;
+	font-size: 14px;
+	padding-bottom: 5px;e;
+}
+
+.left a {
+	text-decoration: none;
+}
+
+.left a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	height: 85px;
+}
+
+.goooogle {
+	background: url(url(/images/nav_logo299.webp) no-repeat);
+}
+
+
+
+
+
+
