@@ -110,10 +110,11 @@
 }
 
 .video h3 {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.33;
 	font-weight: normal;
 	margin: 30px 0 0 10px;
+	font-family: arial, sans-serif;
 }
 
 .container {
@@ -455,23 +456,23 @@ footer {
 	align-items: flex-end;
 }
 
-.rowtwo td {
+.row2two td {
 	color: #4285f3;
 	text-align: center;
 }
 
-.rowtwo a {
+.row2two a {
 	color: #4285f3;
 	text-align: center;
 	text-decoration: none;
 }
 
-.rowtwo a:hover {
+.row2two a:hover {
 	color: #4285f3;
 	text-decoration: underline;
 }
 
-.rowtwo .next {
+.row2two .next {
 	text-align: right;
 	padding-right: 5px;
 }
@@ -536,3 +537,229 @@ footer {
 	text-decoration: none;
 	padding-right: 30px;
 }
+
+
+
+/*### Side Panel ###*/
+
+.side_panel {
+	height: auto;
+	width: 372px;
+	border: 1px solid rgb(223,225,229);
+	border-radius: 5px;
+	position: absolute;
+	left: 830px;
+	top: 170px;
+}
+
+.picture_grid {
+	display: grid;
+	width: 370px;
+	height: 185px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 1px;
+}
+
+.first_image {
+	background-image: url(../img/grid/img4.jpg);
+	background-size: cover;
+	grid-column-start: 1;
+	grid-column-end: 7;
+	grid-row-start: 1;
+	grid-row-end: -1;
+	border-radius: 5px 0 0 0;
+}
+
+.second_image {
+	background-image: url(../img/grid/img5.jpg);
+	background-size: cover;
+	grid-column-start: 7;
+	grid-column-end: 10;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.third_image {
+	background-image: url(../img/grid/img6.jpg);
+	background-size: cover;
+	grid-column-start: 10;
+	grid-column-end: 13;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	border-radius: 0 5px 0 0;
+}
+
+.fourth_image {
+	background-image: url(../img/grid/img7.jpg);
+	background-size: cover;
+	grid-column-start: 7;
+	grid-column-end: 13;
+	grid-row-start: 2;
+	grid-row-end: -1;
+}
+
+.more_image {
+	font-size: 16px;
+	font-family: arial;
+	letter-spacing: 1px;
+	font-weight: normal;
+	background: rgba(2, 2, 2, 0.35);
+	display: inline-block;
+	padding: 5px;
+	color: white;
+	position: relative;
+	float: right;
+	bottom: 35px;
+	width: 119px;
+	height: 31px;
+	text-align: center;
+}
+
+.more_image:hover {
+	background: rgb(2, 2, 2);
+	height: 35px;
+	text-decoration: underline;
+	transition: 0.2s ease;
+}
+
+.panel_heading {
+	font-size: 19px;
+	font-weight: normal;
+	padding-right: 0;
+	padding-left: 10px;
+	margin-top: 10px;
+	color: rgba(0,0,0,.87);
+	text-align: left;
+	display: inline-block;
+}
+
+.share_btn {
+	position: relative;
+	bottom: 20px; 
+	float: right;
+	padding-right: 20px;
+}
+
+.video_game {
+	font-size: small;
+	font-weight: normal;
+	padding-right: 0;
+	padding-left: 10px;
+	margin-top: -15px;
+	margin-bottom: 5px;
+	color: #777;
+	text-align: left;
+	display: inline-block;
+}
+
+.sectionone {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(223,225,229);
+}
+
+.sectiontwo {
+	padding-top: 10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid rgb(223,225,229);
+}
+
+.sectiontwo p {
+	font-size: 14px;
+}
+
+.sectiontwo span {
+	font-size: 14px;
+	color: blue;
+	padding-left: 10px;
+}
+
+.sectiontwo a {
+	text-decoration: none;
+	color:  #777;
+}
+
+.sectiontwo a:hover {
+	text-decoration: underline;
+}
+
+.sectionthree {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(223,225,229);
+}
+
+.userone {
+	color: #777;
+	font-size: 15px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.likes {
+	display: inline-block;
+	float: right;
+	padding-right: 20px;
+}
+
+.likes img {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 5px;
+	position: relative;
+	top: 7px;
+	border: 1px solid rgb(223,225,229);
+	border-radius: 100%;
+}
+
+.likes img:hover {
+	display: inline-block;
+	margin-left: 20px;
+	padding: 5px;
+	position: relative;
+	top: 7px;
+	border: 1px solid black;
+	border-radius: 100%;
+}
+
+.userstwo {
+	color: #777;
+	font-size: small;
+	margin-left: 10px;
+	margin-top: 7px;
+}
+
+.sectionfour {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(223,225,229);
+	margin-left: 10px;
+}
+
+.game_infoone {
+	color: #222;
+	font-size: small;
+	margin-left: 5px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+
+.game_infotwo {
+	color: #222;
+	font-size: small;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.game_infotwo span {
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+
+
+
+
+
